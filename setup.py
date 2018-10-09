@@ -1,5 +1,4 @@
-# Copyright <YEAR> <AUTHOR>
-# This file is part of <NAME>, licensed under <LICENSE>.
+#!/usr/bin/env python3
 
 from setuptools import setup, find_packages
 
