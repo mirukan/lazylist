@@ -10,7 +10,7 @@ def get_readme():
 
 setup(
     name        = "lazylist",
-    version     = "0.2.0",
+    version     = "0.2.1",
 
     author       = "Andrew Barnert, miruka",
     author_email = "abarnert@yahoo.com, miruka@disroot.org",

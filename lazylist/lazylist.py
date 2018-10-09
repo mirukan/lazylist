@@ -45,7 +45,11 @@ class LazyList(collections.abc.MutableSequence):
 
     def __getitem__(self, index):
         self._delazify(index)
-        return self._nonlazy[index]
+        try:
+            return self._nonlazy[index]
+        except IndexError:
+            self.is_fully_loaded = True
+            raise
 
 
     def __delitem__(self, index):
