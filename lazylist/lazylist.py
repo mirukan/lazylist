@@ -99,3 +99,5 @@ class LazyList(collections.abc.MutableSequence):
 
     def __repr__(self):
         return "LazyList(%s)" % self
+
+print("a")
